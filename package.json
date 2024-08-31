@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "setup": "git submodule init && git submodule update",
+    "start": "node bin/web.js --config ./web.json",
     "commit": "gitmoji -c"
+
   },
   "bin": {
     "quakejs-content": "bin/content.js",
